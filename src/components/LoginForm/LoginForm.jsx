@@ -16,8 +16,8 @@ export const LoginForm = () => {
 
     dispatch(
       logInUser({
-        email: form.elements.email.value,
-        password: form.elements.password.value,
+        email,
+        password,
       })
     );
     form.reset();
