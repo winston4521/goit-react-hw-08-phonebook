@@ -6,7 +6,6 @@ import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { fetchContacts } from '../../redux/Contacts/contactsoperations';
 import { Stack, Typography } from '@mui/material';
-import { Box, Center } from '@chakra-ui/react';
 
 const ContactsPage = () => {
   const dispatch = useDispatch();
