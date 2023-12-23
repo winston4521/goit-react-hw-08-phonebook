@@ -5,20 +5,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from '../../redux/Contacts/contactsoperations';
 import { selectContacts } from '../../redux/Contacts/Selectors';
 import { toast } from 'react-toastify';
-import {
-  Box,
-  Button,
-  FormControl,
-  FormHelperText,
-  Input,
-  InputAdornment,
-  InputLabel,
-  Stack,
-  TextField,
-} from '@mui/material';
+import { Box, Button, InputAdornment, Stack, TextField } from '@mui/material';
 import DriveFileRenameOutlineIcon from '@mui/icons-material/DriveFileRenameOutline';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
-import { SupervisedUserCircle } from '@mui/icons-material';
 
 export const FormAdd = () => {
   const [name, setName] = useState('');
