@@ -12,12 +12,11 @@ import PrivateRoute from '../PrivateRoute/PrivateRoute';
 import { RestrictedRoute } from 'components/RedirectedRoute/RedirectedRoute';
 
 const Home = lazy(() => import('Pages/Home/Home'));
-const RegisterPage = lazy(() => import('Pages/RegisterPage/RegisterPage'));
+const Register = lazy(() => import('Pages/Register/Register'));
 const Login = lazy(() => import('Pages/Login/Login'));
 const ContactsPage = lazy(() => import('../../Pages/Contacts/ContactsPage'));
 
 export const App = () => {
-  // =========Render=========
   const dispatch = useDispatch();
   useEffect(() => {
     dispatch(refreshUser());
@@ -35,7 +34,7 @@ export const App = () => {
               element={
                 <RestrictedRoute
                   redirectTo="/contacts"
-                  component={<RegisterPage />}
+                  component={<Register />}
                   restricted
                 />
               }

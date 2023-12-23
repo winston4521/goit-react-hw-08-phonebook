@@ -27,7 +27,7 @@ const ContactsPage = () => {
           minWidth: '320px',
           padding: '24px',
           borderRadius: '10%',
-          opacity: 0.8,
+          opacity: 0.9,
         }}
       >
         <Typography variant="h4" component="h2" gutterBottom>

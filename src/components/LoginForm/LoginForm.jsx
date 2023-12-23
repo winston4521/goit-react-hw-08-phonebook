@@ -36,7 +36,7 @@ export const LoginForm = () => {
             minWidth: '280px',
             padding: '30px',
             borderRadius: '15%',
-            opacity: 0.8,
+            opacity: 0.9,
             boxShadow: ' 3px 5px 5px 2px #888888',
           }}
         >

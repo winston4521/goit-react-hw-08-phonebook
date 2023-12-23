@@ -42,7 +42,7 @@ const RegisterForm = () => {
             minWidth: '300px',
             padding: '40px',
             borderRadius: '10%',
-            opacity: 0.8,
+            opacity: 0.9,
             boxShadow: ' 3px 5px 5px 2px #888888',
           }}
         >
