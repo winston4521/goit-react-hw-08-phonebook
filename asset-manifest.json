@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.653cc4da.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.f5fb3476.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.fdda0c6b.js",
     "static/js/765.a2e19e56.chunk.js": "/goit-react-hw-08-phonebook/static/js/765.a2e19e56.chunk.js",
     "static/js/441.a58a7d26.chunk.js": "/goit-react-hw-08-phonebook/static/js/441.a58a7d26.chunk.js",
     "static/js/701.5fcadd04.chunk.js": "/goit-react-hw-08-phonebook/static/js/701.5fcadd04.chunk.js",
@@ -10,7 +10,7 @@
     "static/media/merry-christmas.jpeg": "/goit-react-hw-08-phonebook/static/media/merry-christmas.b751c1bdd460104488bf.jpeg",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.653cc4da.css.map": "/goit-react-hw-08-phonebook/static/css/main.653cc4da.css.map",
-    "main.f5fb3476.js.map": "/goit-react-hw-08-phonebook/static/js/main.f5fb3476.js.map",
+    "main.fdda0c6b.js.map": "/goit-react-hw-08-phonebook/static/js/main.fdda0c6b.js.map",
     "765.a2e19e56.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/765.a2e19e56.chunk.js.map",
     "441.a58a7d26.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/441.a58a7d26.chunk.js.map",
     "701.5fcadd04.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/701.5fcadd04.chunk.js.map",
@@ -19,6 +19,6 @@
   },
   "entrypoints": [
     "static/css/main.653cc4da.css",
-    "static/js/main.f5fb3476.js"
+    "static/js/main.fdda0c6b.js"
   ]
 }
