@@ -20,7 +20,7 @@ const handleRejected = (state, { payload }) => {
 const registerFulfilled = (state, { payload }) => {
   state.user = payload.user;
   state.token = payload.token;
-  state.isLoggedIn = false;
+  state.isLoggedIn = true;
   state.loading = false;
   state.error = '';
 };
